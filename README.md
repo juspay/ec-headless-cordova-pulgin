@@ -4,7 +4,7 @@ JusPay has a native android and iOS client which can be used by PhoneGap applica
 ## Installation 
 This requires phonegap/cordova CLI 5.0+
 
-Install via repo url directly (latest version)
+Add the plugin to your phonegap/cordova apps using these commands.
 
 ```sh
 $ phonegap plugin add juspay/ec-headless-cordova-plugin
