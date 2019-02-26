@@ -7,11 +7,11 @@ This requires phonegap/cordova CLI 5.0+
 Install via repo url directly (latest version)
 
 ```sh
-$ phonegap plugin add https://bitbucket.org/juspay/ec-hl-cordova-plugin
+$ phonegap plugin add juspay/ec-headless-cordova-plugin
 ```
 (or)
 ```sh
-$ cordova plugin add https://bitbucket.org/juspay/ec-hl-cordova-plugin
+$ cordova plugin add juspay/ec-headless-cordova-plugin
 ```
 
 
