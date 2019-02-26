@@ -1,0 +1,40 @@
+{
+  "name": "@juspay/ec-headless-cordova-plugin",
+  "version": "1.0.0",
+  "description": "A Cordova plugin for the Juspay Express Checkout Headless Sdk",
+  "cordova": {
+    "id": "juspay-ec-headless-sdk-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juspay/ec-headless-cordova-pulgin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "express",
+    "checkout",
+    "juspay"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.6.0"
+    }
+  ],
+  "author": "Kiran Puppala",
+  "contributors": [
+    {
+      "name": "Kiran Puppala",
+      "email": "kiran.puppala@juspay.in"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/juspay/ec-headless-cordova-pulgin/issues"
+  },
+  "license": "MIT", 
+  "homepage": "https://github.com/juspay/ec-headless-cordova-pulgin#readme"
+}

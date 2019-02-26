@@ -1,0 +1,10 @@
+repositories {
+	mavenCentral()
+	maven {
+			url "https://maven.juspay.in/jp-build-packages/release/"
+	}
+}
+
+dependencies {
+	compile 'in.juspay:godel-ec:1.0.7'
+}
