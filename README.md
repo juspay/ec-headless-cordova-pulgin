@@ -23,3 +23,9 @@ To add or change ec-hl-cordova-plugin specific dependencies, refer this file.
 ```sh
 platforms/android/ec-hl-cordova-plugin/<appname>-_plugin-dependencies.gradle
 ```
+
+#### For iOS 
+
+Minimum supporeted iOS version: 10.0
+
+If you are getting the pod error like `Failed to install 'ec-hl-cordova-plugin': Error: pod: Command failed with exit code 1` while installing "ec-hl-cordova-plugin" for ios, please update `platform :ios` to '10.0' in the Podfile and run the command `pod install`.
