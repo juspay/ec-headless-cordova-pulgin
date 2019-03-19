@@ -70,7 +70,7 @@ public class ExpressCheckout extends CordovaPlugin {
 
             JSONObject baseParams = params.optJSONObject("baseParams");
             JSONObject serviceParams = params.optJSONObject("serviceParams");
-            JSONArray customParams = params.optJSONObject("customParams");
+            JSONObject customParams = params.optJSONObject("customParams");
 
             Log.d(LOG_TAG, params.toString());
             Log.d(LOG_TAG, baseParams.toString());

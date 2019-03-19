@@ -5,3 +5,7 @@
 ### 1.0.1
 
 * iOS plugin.
+
+### 1.0.2
+
+* Minor Bug Fixes.
