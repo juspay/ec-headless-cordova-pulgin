@@ -8,4 +8,8 @@
 
 ### 1.0.2
 
+* Minor Bug Fixes.
+
+### 1.0.3
+
 * Updated iOS plugin - 0.2.37.
