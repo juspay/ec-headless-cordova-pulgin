@@ -1,6 +1,6 @@
 {
   "name": "@juspay/ec-headless-cordova-plugin",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A Cordova plugin for the Juspay Express Checkout Headless Sdk",
   "cordova": {
     "id": "juspay-ec-headless-sdk-plugin",

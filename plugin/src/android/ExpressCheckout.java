@@ -151,12 +151,10 @@ public class ExpressCheckout extends CordovaPlugin {
      */
     private Bundle jsonToBundle(JSONObject jsonObject) throws Exception {
         Bundle bundle = new Bundle();
-        JSONArray keys = jsonObject.names();
-
-        for (int i = 0; i < keys.length(); ++i) {
-            String key = keys.getString(i);
+        Iterator keys = jsonObject.keys();
+        while(keys.hasNext()){
+            String key = (String) keys.next();
             Object value = jsonObject.getString(key);
-
             if (value instanceof JSONArray) {
                 JSONArray jsonArray = (JSONArray) value;
                 String[] stringArray = null;
@@ -174,7 +172,6 @@ public class ExpressCheckout extends CordovaPlugin {
                 bundle.putString(key, (String) value);
             }
         }
-
         return bundle;
     }
 
