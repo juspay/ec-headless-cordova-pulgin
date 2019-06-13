@@ -29,3 +29,47 @@ platforms/android/ec-hl-cordova-plugin/<appname>-_plugin-dependencies.gradle
 Minimum supporeted iOS version: 10.0
 
 If you are getting the pod error like `Failed to install 'ec-hl-cordova-plugin': Error: pod: Command failed with exit code 1` while installing "ec-hl-cordova-plugin" for ios, please update `platform :ios` to '10.0' in the Podfile and run the command `pod install`.
+
+
+## Usage 
+
+```sh
+  var nbPayload = {
+                  opName: "nbTxn",
+                  paymentMethodType: "NB",
+                  paymentMethod: "enter bank code", // Eg: NB_SBI
+                  redirectAfterPayment: "true",
+                  format: "json"
+                }
+  //Here payload format is specified for netbanking transaction. For other operations, refer 
+  [EC SDK Doc](https://www.juspay.in/docs/hyper-sdk/android/ExpressCheckout/index.html)
+
+  var requestPayload = {
+            baseParams: {
+              merchant_id: "pass merchant id",
+              client_id: "pass client id",
+              transaction_id: "pass transaction id", //optional
+              order_id: "pass order id",
+              amount: "amount", //eg: "1.00"
+              customer_id : "pass customer id",
+              customer_email : "pass email",
+              customer_phone_number : "pass phone number",
+              environment: "pass environment" //eg: "sandbox" or "prod"
+            },
+            serviceParams: {
+              service: "in.juspay.ec",
+              session_token: "pass client auth token",
+              endUrls: [], //eg: ["https://www.reload.in/recharge/", ".*www.reload.in/payment/f.*"]
+              payload: nbPayload 
+            },
+            customParams: {}, //customParams are optional key value pairs. { udf_circle: "Andhra Pradesh" }
+            onSuccess: function (successResponse) {
+              console.log("Success Response", successResponse);
+            },
+            onError: function (errorResponse) {
+              console.log("Error Response", errorResponse);
+            }
+     }
+  var expressCheckout = new ExpressCheckout();
+  expressCheckout.startPayment(requestPayload);
+```
