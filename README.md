@@ -7,11 +7,11 @@ This requires phonegap/cordova CLI 5.0+
 Add the plugin to your phonegap/cordova apps using these commands.
 
 ```sh
-$ phonegap plugin add juspay/ec-headless-cordova-plugin
+$ phonegap plugin add @juspay/ec-headless-cordova-plugin
 ```
 (or)
 ```sh
-$ cordova plugin add juspay/ec-headless-cordova-plugin
+$ cordova plugin add @juspay/ec-headless-cordova-plugin
 ```
 
 
