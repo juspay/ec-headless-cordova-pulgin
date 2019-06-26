@@ -4,16 +4,24 @@
 
 ### 1.0.1
 
-* iOS plugin.
+* iOS plugin - 0.2.16.
 
 ### 1.0.2
 
 * Minor Bug Fixes.
 
-### 1.0.3 
+### 1.0.3
 
-* Updated plugin with latest iOS SDK version
+* Updated iOS plugin - 0.2.37.
 
 ### 1.0.4 
 
 * Bug Fixes in Android
+
+### 1.0.5
+
+* Updated iOS plugin - 0.2.64.
+
+### 1.0.6 
+* Upgraded Android SDK version & Minor bug fixes
+
