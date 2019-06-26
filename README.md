@@ -26,9 +26,9 @@ platforms/android/ec-hl-cordova-plugin/<appname>-_plugin-dependencies.gradle
 
 #### For iOS 
 
-Minimum supporeted iOS version: 10.0
+Minimum supporeted iOS version: 9.0
 
-If you are getting the pod error like `Failed to install 'ec-hl-cordova-plugin': Error: pod: Command failed with exit code 1` while installing "ec-hl-cordova-plugin" for ios, please update `platform :ios` to '10.0' in the Podfile and run the command `pod install`.
+If you are getting the pod error like `Failed to install 'ec-hl-cordova-plugin': Error: pod: Command failed with exit code 1` while installing "ec-hl-cordova-plugin" for ios, please update `platform :ios` to '9.0' in the Podfile and run the command `pod install`.
 
 
 ## Usage 
@@ -60,7 +60,7 @@ If you are getting the pod error like `Failed to install 'ec-hl-cordova-plugin':
               service: "in.juspay.ec",
               session_token: "pass client auth token",
               endUrls: [], //eg: ["https://www.reload.in/recharge/", ".*www.reload.in/payment/f.*"]
-              payload: nbPayload 
+              payload: JSON.stringify(nbPayload)
             },
             customParams: {}, //customParams are optional key value pairs. { udf_circle: "Andhra Pradesh" }
             onSuccess: function (successResponse) {

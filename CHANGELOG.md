@@ -13,3 +13,7 @@
 ### 1.0.3
 
 * Updated iOS plugin - 0.2.37.
+
+### 1.0.5
+
+* Updated iOS plugin - 0.2.64.
