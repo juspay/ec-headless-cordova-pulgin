@@ -42,7 +42,8 @@ If you are getting the pod error like `Failed to install 'ec-hl-cordova-plugin':
                   format: "json"
                 }
   //Here payload format is specified for netbanking transaction. For other operations, refer 
-  [EC SDK Doc](https://www.juspay.in/docs/hyper-sdk/android/ExpressCheckout/index.html)
+  [EC SDK Doc - Android](https://www.juspay.in/docs/hyper-sdk/android/ExpressCheckout/index.html)
+  [EC SDK Doc - iOS](https://developer.juspay.in/docs/ios-payments-sdk-integration)
 
   var requestPayload = {
             baseParams: {
