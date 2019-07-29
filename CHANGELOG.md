@@ -30,3 +30,7 @@
 
 * Updated iOS plugin - 0.2.68.
 
+### 1.0.8 
+
+* Updated Android SDK version
+
