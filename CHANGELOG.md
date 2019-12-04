@@ -38,3 +38,7 @@
 
 * Updated iOS SDK version (0.2.84)
 
+### 1.1.0
+
+* Updated iOS SDK version (0.2.90)
+
