@@ -60,7 +60,7 @@ If you are getting the pod error like `Failed to install 'ec-hl-cordova-plugin':
             serviceParams: {
               service: "in.juspay.ec",
               session_token: "pass client auth token",
-              endUrls: [], //eg: ["https://www.reload.in/recharge/", ".*www.reload.in/payment/f.*"]
+              end_urls: [], //eg: ["https://www.reload.in/recharge/", ".*www.reload.in/payment/f.*"]
               payload: JSON.stringify(nbPayload)
             },
             customParams: {}, //customParams are optional key value pairs. { udf_circle: "Andhra Pradesh" }
