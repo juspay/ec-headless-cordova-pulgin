@@ -49,3 +49,7 @@
 ### 1.1.2
 
 * Updated Android SDK version to 1.0.7.20 and iOS SDK version to 0.2.98
+
+### 1.1.3
+
+* Updated Android SDK version to 1.0.7.22
