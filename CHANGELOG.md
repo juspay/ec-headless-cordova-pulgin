@@ -57,3 +57,7 @@
 ### 1.1.4
 
 * Updated Android SDK version to 1.0.7.25
+
+### 1.1.5
+
+* Updated Android SDK version to 1.0.7.26

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="ec-hl-cordova-plugin"
-    version="1.1.4">
+    version="1.1.5">
 
     <name>Juspay-EC-Headless</name>
     <description>A Cordova plugin for the Juspay Express Checkout Headless Android SDK</description>
