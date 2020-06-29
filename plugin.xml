@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="ec-hl-cordova-plugin"
-    version="1.1.5">
+    version="1.1.6">
 
     <name>Juspay-EC-Headless</name>
     <description>A Cordova plugin for the Juspay Express Checkout Headless Android SDK</description>
@@ -25,7 +25,7 @@
     </platform>
 
     <platform name="ios">
-        <framework src="HyperSDK" type="podspec" spec="0.2.98" />
+        <framework src="HyperSDK" type="podspec" spec="0.2.101" />
         <config-file target="config.xml" parent="/*">
             <feature name="ExpressCheckout">
                 <param name="ios-package" value="ExpressCheckout" />
